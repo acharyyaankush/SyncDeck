@@ -23,4 +23,7 @@ SyncDeck is a powerful web-based presentation tool built for the modern remote e
 
 <img width="1366" height="724" alt="presenter side" src="https://github.com/user-attachments/assets/e96e18e1-b4f3-4a54-87c2-b959467f7099" />
 
+
+
+
 <img width="1366" height="728" alt="viewer side" src="https://github.com/user-attachments/assets/5f79220b-f580-4527-bb76-4fcff0c23d76" />
