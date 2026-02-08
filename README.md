@@ -21,7 +21,8 @@ SyncDeck is a powerful web-based presentation tool built for the modern remote e
 - **Real-Time:** Socket.io
 - **Rich Text:** React-Quill
 
-<img width="1366" height="724" alt="presenter side" src="https://github.com/user-attachments/assets/e96e18e1-b4f3-4a54-87c2-b959467f7099" />
+<img width="1366" height="731" alt="presenter side" src="https://github.com/user-attachments/assets/e4c9b250-4dd2-4abd-a179-e678b8b4a346" />
+
 
 
 
