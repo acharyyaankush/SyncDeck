@@ -1,16 +1,25 @@
-# React + Vite
+# SyncDeck 🚀 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A Full-Stack, Real-Time Interactive Presentation Platform**
 
-Currently, two official plugins are available:
+SyncDeck is a powerful web-based presentation tool built for the modern remote era. It allows a "Presenter" to create, edit, and arrange slides in real-time while "Viewers" follow along instantly. Featuring a custom drag-and-drop canvas engine and live socket synchronization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+* **Live Synchronization:** Powered by Socket.io, every change made by the presenter (text, image, color, or layout) is reflected on all viewers' screens with sub-second latency.
+* **Dynamic Canvas Engine:** Presenters can freely move and resize text boxes and images using a "Snap-to-Grid" system for professional alignment.
+* **Rich Text Editing:** Integrated Word-like formatting (Bold, Italic, Lists) using React Quill.
+* **On-the-Fly Customization:** Toggle content areas (Text/Image) and change background colors instantly via a transparent control panel.
+* **Smart Shortcuts:** Navigate slides with arrow keys and use keyboard shortcuts for a desktop-app feel.
+* **Image Uploads:** Instant local file processing and synchronization without external storage dependencies.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, Lucide React (Icons), React-Rnd (Drag/Resize)
+- **Backend:** Node.js, Express
+- **Real-Time:** Socket.io
+- **Rich Text:** React-Quill
+<img width="1366" height="768" alt="viewer side" src="https://github.com/user-attachments/assets/07ee1e12-f049-4eba-9efe-8c81976c7c78" />
