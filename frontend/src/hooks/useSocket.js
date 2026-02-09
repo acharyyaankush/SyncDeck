@@ -1,30 +1,3 @@
-// import { useEffect, useRef, useState } from "react"
-// import { io } from 'socket.io-client';
-
-// export const useSocket = () => {
-//     const socketref = useRef();
-//     const [currentSlide, setcurrentSlide] = useState(0);
-
-//     useEffect(()=>{
-//         socketref.current = io("https://syncdeck.onrender.com/");
-
-//         socketref.current.on('slide-updated',(index)=>{
-//             console.log(12,'viewer receive update:',index);
-//             setcurrentSlide(index);
-//         });
-//         return () => socketref.current.disconnect();
-//     },[]);
-
-//     const emitslidechange = (index) =>{
-//         socketref.current.emit('change-slide',index);
-//     };
-
-//     return {
-//         currentSlide, setcurrentSlide, emitslidechange
-//     };
-
-// };
-
 import { useEffect, useRef, useState } from 'react';
 import { io } from 'socket.io-client';
 
@@ -35,7 +8,7 @@ export const useSocket = () => {
   const [pointer, setPointer] = useState({ x: 0, y: 0, active: false });
 
   useEffect(() => {
-    socketRef.current = io('http://localhost:3000');
+    socketRef.current = io("https://syncdeck.onrender.com/");
 
     socketRef.current.on('init-state', (data) => {
       setSlides(data.slides);
@@ -77,3 +50,4 @@ export const useSocket = () => {
      sendContent, sendSlideChange, sendNewOrder, AddSlide, triggerDeleteSlide};
 
 };
+
