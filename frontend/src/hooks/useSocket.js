@@ -6,7 +6,7 @@
 //     const [currentSlide, setcurrentSlide] = useState(0);
 
 //     useEffect(()=>{
-//         socketref.current = io('http://localhost:3000');
+//         socketref.current = io("https://syncdeck.onrender.com/");
 
 //         socketref.current.on('slide-updated',(index)=>{
 //             console.log(12,'viewer receive update:',index);
@@ -75,4 +75,5 @@ export const useSocket = () => {
 
   return { currentSlide, setCurrentSlide, slides, setSlides, pointer, sendPointer,
      sendContent, sendSlideChange, sendNewOrder, AddSlide, triggerDeleteSlide};
+
 };
